@@ -30,7 +30,7 @@ gdjs.MenuCode.condition1IsTrue_2 = {val:false};
 gdjs.MenuCode.condition2IsTrue_2 = {val:false};
 
 
-gdjs.MenuCode.eventsList0x723524 = function(runtimeScene) {
+gdjs.MenuCode.eventsList0x72812c = function(runtimeScene) {
 
 {
 
@@ -45,8 +45,8 @@ gdjs.MenuCode.GDBestScoreObjects1.createFrom(runtimeScene.getObjects("BestScore"
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x723524
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDStartButtonObjects2Objects = Hashtable.newFrom({"StartButton": gdjs.MenuCode.GDStartButtonObjects2});gdjs.MenuCode.eventsList0x723874 = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0x72812c
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDStartButtonObjects2Objects = Hashtable.newFrom({"StartButton": gdjs.MenuCode.GDStartButtonObjects2});gdjs.MenuCode.eventsList0x70e28c = function(runtimeScene) {
 
 {
 
@@ -58,7 +58,7 @@ gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDStartButtonObjects2Objects = Hashtable.
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x723874
+}; //End of gdjs.MenuCode.eventsList0x70e28c
 gdjs.MenuCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -74,7 +74,7 @@ gdjs.MenuCode.GDPreviousScoreObjects1.createFrom(runtimeScene.getObjects("Previo
 }
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x723524(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x72812c(runtimeScene);} //End of subevents
 }
 
 }
@@ -125,7 +125,7 @@ gdjs.MenuCode.GDStartButtonObjects1.createFrom(gdjs.MenuCode.GDStartButtonObject
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("mode").setString("Endless");
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x723874(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x70e28c(runtimeScene);} //End of subevents
 }
 
 }
