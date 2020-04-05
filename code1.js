@@ -33,7 +33,7 @@ gdjs.MainCode.condition2IsTrue_1 = {val:false};
 gdjs.MainCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.MainCode.eventsList0x6c578c = function(runtimeScene) {
+gdjs.MainCode.eventsList0x6aaabc = function(runtimeScene) {
 
 {
 
@@ -79,8 +79,8 @@ gdjs.MainCode.conditionTrue_1.val = (gdjs.evtTools.runtimeScene.getTimeFromStart
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6c578c
-gdjs.MainCode.eventsList0x72fea4 = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x6aaabc
+gdjs.MainCode.eventsList0x71a48c = function(runtimeScene) {
 
 {
 
@@ -120,8 +120,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableString(ru
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x72fea4
-gdjs.MainCode.eventsList0x72fd1c = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x71a48c
+gdjs.MainCode.eventsList0x71a2dc = function(runtimeScene) {
 
 {
 
@@ -130,14 +130,14 @@ gdjs.MainCode.eventsList0x72fd1c = function(runtimeScene) {
 {runtimeScene.getVariables().getFromIndex(0).getChild("level").add(1);
 }
 { //Subevents
-gdjs.MainCode.eventsList0x72fea4(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x71a48c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x72fd1c
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x723454 = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x71a2dc
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x723cfc = function(runtimeScene) {
 
 {
 
@@ -154,8 +154,8 @@ gdjs.MainCode.GDguideObjects2.length = 0;
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x723454
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x6c50b4 = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x723cfc
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x6bbe4c = function(runtimeScene) {
 
 {
 
@@ -172,8 +172,8 @@ gdjs.MainCode.GDguideObjects2.length = 0;
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6c50b4
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.eventsList0x721b9c = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x6bbe4c
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.eventsList0x70db0c = function(runtimeScene) {
 
 {
 
@@ -188,7 +188,7 @@ gdjs.MainCode.GDObstacleObjects2.length = 0;
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects, 560 - gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1).getChild("pos")), -(32), "");
 }
 { //Subevents
-gdjs.MainCode.eventsList0x723454(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x723cfc(runtimeScene);} //End of subevents
 }
 
 }
@@ -207,7 +207,7 @@ gdjs.MainCode.GDObstacleObjects2.length = 0;
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects, 560 + gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1).getChild("pos")), -(32), "");
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6c50b4(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x6bbe4c(runtimeScene);} //End of subevents
 }
 
 }
@@ -242,8 +242,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x721b9c
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDCharacterObjects1Objects = Hashtable.newFrom({"Character": gdjs.MainCode.GDCharacterObjects1});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects1});gdjs.MainCode.eventsList0x6aa8ac = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x70db0c
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDCharacterObjects1Objects = Hashtable.newFrom({"Character": gdjs.MainCode.GDCharacterObjects1});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects1});gdjs.MainCode.eventsList0x6c4bc4 = function(runtimeScene) {
 
 {
 
@@ -260,7 +260,7 @@ gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDCharacterObjects1Objects = Hashtable.ne
 
 gdjs.MainCode.condition0IsTrue_0.val = false;
 {
-gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("BestScore")) < gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "LevelTimer");
+gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1).getChild("BestScore")) < gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(2));
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(1).getChild("BestScore").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(2)));
 }}
@@ -278,7 +278,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6aa8ac
+}; //End of gdjs.MainCode.eventsList0x6c4bc4
 gdjs.MainCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -396,7 +396,7 @@ gdjs.MainCode.GDTimerObjects1.createFrom(runtimeScene.getObjects("Timer"));
 }
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6c578c(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x6aaabc(runtimeScene);} //End of subevents
 }
 
 }
@@ -458,7 +458,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTi
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "LevelTimer");
 }
 { //Subevents
-gdjs.MainCode.eventsList0x72fd1c(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x71a2dc(runtimeScene);} //End of subevents
 }
 
 }
@@ -477,7 +477,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTi
 }{runtimeScene.getVariables().getFromIndex(1).getChild("obsType").setNumber(0);
 }
 { //Subevents
-gdjs.MainCode.eventsList0x721b9c(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x70db0c(runtimeScene);} //End of subevents
 }
 
 }
@@ -502,7 +502,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 {runtimeScene.getVariables().getFromIndex(2).setNumber(gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene));
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6aa8ac(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x6c4bc4(runtimeScene);} //End of subevents
 }
 
 }
