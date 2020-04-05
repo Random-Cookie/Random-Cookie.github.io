@@ -14,6 +14,12 @@ gdjs.MainCode.GDObstacleObjects3= [];
 gdjs.MainCode.GDguideObjects1= [];
 gdjs.MainCode.GDguideObjects2= [];
 gdjs.MainCode.GDguideObjects3= [];
+gdjs.MainCode.GDTimerObjects1= [];
+gdjs.MainCode.GDTimerObjects2= [];
+gdjs.MainCode.GDTimerObjects3= [];
+gdjs.MainCode.GDTimerBackgroundObjects1= [];
+gdjs.MainCode.GDTimerBackgroundObjects2= [];
+gdjs.MainCode.GDTimerBackgroundObjects3= [];
 
 gdjs.MainCode.conditionTrue_0 = {val:false};
 gdjs.MainCode.condition0IsTrue_0 = {val:false};
@@ -27,7 +33,54 @@ gdjs.MainCode.condition2IsTrue_1 = {val:false};
 gdjs.MainCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.MainCode.eventsList0x6c4e54 = function(runtimeScene) {
+gdjs.MainCode.eventsList0x6c578c = function(runtimeScene) {
+
+{
+
+
+gdjs.MainCode.condition0IsTrue_0.val = false;
+gdjs.MainCode.condition1IsTrue_0.val = false;
+{
+{gdjs.MainCode.conditionTrue_1 = gdjs.MainCode.condition0IsTrue_0;
+gdjs.MainCode.conditionTrue_1.val = (gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene) > 10);
+}
+}if ( gdjs.MainCode.condition0IsTrue_0.val ) {
+{
+{gdjs.MainCode.conditionTrue_1 = gdjs.MainCode.condition1IsTrue_0;
+gdjs.MainCode.conditionTrue_1.val = (gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene) < 10.1);
+}
+}}
+if (gdjs.MainCode.condition1IsTrue_0.val) {
+gdjs.MainCode.GDTimerObjects2.createFrom(gdjs.MainCode.GDTimerObjects1);
+
+{for(var i = 0, len = gdjs.MainCode.GDTimerObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDTimerObjects2[i].setX(36);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.MainCode.condition0IsTrue_0.val = false;
+{
+{gdjs.MainCode.conditionTrue_1 = gdjs.MainCode.condition0IsTrue_0;
+gdjs.MainCode.conditionTrue_1.val = (gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene) > 100);
+}
+}if (gdjs.MainCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.MainCode.GDTimerObjects1 */
+{for(var i = 0, len = gdjs.MainCode.GDTimerObjects1.length ;i < len;++i) {
+    gdjs.MainCode.GDTimerObjects1[i].setX(0);
+}
+}}
+
+}
+
+
+}; //End of gdjs.MainCode.eventsList0x6c578c
+gdjs.MainCode.eventsList0x72fea4 = function(runtimeScene) {
 
 {
 
@@ -67,8 +120,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableString(ru
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6c4e54
-gdjs.MainCode.eventsList0x6c4adc = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x72fea4
+gdjs.MainCode.eventsList0x72fd1c = function(runtimeScene) {
 
 {
 
@@ -77,14 +130,14 @@ gdjs.MainCode.eventsList0x6c4adc = function(runtimeScene) {
 {runtimeScene.getVariables().getFromIndex(0).getChild("level").add(1);
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6c4e54(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x72fea4(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6c4adc
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x6d105c = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x72fd1c
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x723454 = function(runtimeScene) {
 
 {
 
@@ -101,8 +154,8 @@ gdjs.MainCode.GDguideObjects2.length = 0;
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6d105c
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x6cfa5c = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x723454
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDguideObjects2Objects = Hashtable.newFrom({"guide": gdjs.MainCode.GDguideObjects2});gdjs.MainCode.eventsList0x6c50b4 = function(runtimeScene) {
 
 {
 
@@ -119,8 +172,8 @@ gdjs.MainCode.GDguideObjects2.length = 0;
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6cfa5c
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.eventsList0x6d19fc = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x6c50b4
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects2});gdjs.MainCode.eventsList0x721b9c = function(runtimeScene) {
 
 {
 
@@ -135,7 +188,7 @@ gdjs.MainCode.GDObstacleObjects2.length = 0;
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects, 560 - gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1).getChild("pos")), -(32), "");
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6d105c(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x723454(runtimeScene);} //End of subevents
 }
 
 }
@@ -154,7 +207,7 @@ gdjs.MainCode.GDObstacleObjects2.length = 0;
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects2Objects, 560 + gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1).getChild("pos")), -(32), "");
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6cfa5c(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x6c50b4(runtimeScene);} //End of subevents
 }
 
 }
@@ -189,8 +242,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6d19fc
-gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDCharacterObjects1Objects = Hashtable.newFrom({"Character": gdjs.MainCode.GDCharacterObjects1});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects1});gdjs.MainCode.eventsList0x6d0564 = function(runtimeScene) {
+}; //End of gdjs.MainCode.eventsList0x721b9c
+gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDCharacterObjects1Objects = Hashtable.newFrom({"Character": gdjs.MainCode.GDCharacterObjects1});gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDObstacleObjects1Objects = Hashtable.newFrom({"Obstacle": gdjs.MainCode.GDObstacleObjects1});gdjs.MainCode.eventsList0x6aa8ac = function(runtimeScene) {
 
 {
 
@@ -225,7 +278,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }
 
 
-}; //End of gdjs.MainCode.eventsList0x6d0564
+}; //End of gdjs.MainCode.eventsList0x6aa8ac
 gdjs.MainCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -335,6 +388,22 @@ gdjs.MainCode.GDCharacterObjects1.createFrom(runtimeScene.getObjects("Character"
 
 {
 
+
+{
+gdjs.MainCode.GDTimerObjects1.createFrom(runtimeScene.getObjects("Timer"));
+{for(var i = 0, len = gdjs.MainCode.GDTimerObjects1.length ;i < len;++i) {
+    gdjs.MainCode.GDTimerObjects1[i].setString(gdjs.evtTools.common.toString(gdjs.evtTools.common.trunc(gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene) * 100) / 100));
+}
+}
+{ //Subevents
+gdjs.MainCode.eventsList0x6c578c(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
 gdjs.MainCode.GDCharacterObjects1.createFrom(runtimeScene.getObjects("Character"));
 
 gdjs.MainCode.condition0IsTrue_0.val = false;
@@ -389,7 +458,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTi
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "LevelTimer");
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6c4adc(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x72fd1c(runtimeScene);} //End of subevents
 }
 
 }
@@ -408,7 +477,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTi
 }{runtimeScene.getVariables().getFromIndex(1).getChild("obsType").setNumber(0);
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6d19fc(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x721b9c(runtimeScene);} //End of subevents
 }
 
 }
@@ -433,7 +502,7 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 {runtimeScene.getVariables().getFromIndex(2).setNumber(gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene));
 }
 { //Subevents
-gdjs.MainCode.eventsList0x6d0564(runtimeScene);} //End of subevents
+gdjs.MainCode.eventsList0x6aa8ac(runtimeScene);} //End of subevents
 }
 
 }
@@ -477,6 +546,12 @@ gdjs.MainCode.GDObstacleObjects3.length = 0;
 gdjs.MainCode.GDguideObjects1.length = 0;
 gdjs.MainCode.GDguideObjects2.length = 0;
 gdjs.MainCode.GDguideObjects3.length = 0;
+gdjs.MainCode.GDTimerObjects1.length = 0;
+gdjs.MainCode.GDTimerObjects2.length = 0;
+gdjs.MainCode.GDTimerObjects3.length = 0;
+gdjs.MainCode.GDTimerBackgroundObjects1.length = 0;
+gdjs.MainCode.GDTimerBackgroundObjects2.length = 0;
+gdjs.MainCode.GDTimerBackgroundObjects3.length = 0;
 
 gdjs.MainCode.eventsList0x5b6e18(runtimeScene);
 return;

@@ -30,7 +30,7 @@ gdjs.MenuCode.condition1IsTrue_2 = {val:false};
 gdjs.MenuCode.condition2IsTrue_2 = {val:false};
 
 
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDStartButtonObjects2Objects = Hashtable.newFrom({"StartButton": gdjs.MenuCode.GDStartButtonObjects2});gdjs.MenuCode.eventsList0x6c57fc = function(runtimeScene) {
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDStartButtonObjects2Objects = Hashtable.newFrom({"StartButton": gdjs.MenuCode.GDStartButtonObjects2});gdjs.MenuCode.eventsList0x6cacbc = function(runtimeScene) {
 
 {
 
@@ -42,7 +42,7 @@ gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDStartButtonObjects2Objects = Hashtable.
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x6c57fc
+}; //End of gdjs.MenuCode.eventsList0x6cacbc
 gdjs.MenuCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -110,7 +110,7 @@ gdjs.MenuCode.GDStartButtonObjects1.createFrom(gdjs.MenuCode.GDStartButtonObject
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("mode").setString("Endless");
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x6c57fc(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x6cacbc(runtimeScene);} //End of subevents
 }
 
 }
