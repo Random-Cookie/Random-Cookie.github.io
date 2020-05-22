@@ -64,7 +64,7 @@ gdjs.MenuCode.condition2IsTrue_1 = {val:false};
 gdjs.MenuCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel1Objects1Objects = Hashtable.newFrom({"Level1": gdjs.MenuCode.GDLevel1Objects1});gdjs.MenuCode.eventsList0x7adb14 = function(runtimeScene) {
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel1Objects1Objects = Hashtable.newFrom({"Level1": gdjs.MenuCode.GDLevel1Objects1});gdjs.MenuCode.eventsList0x789aec = function(runtimeScene) {
 
 {
 
@@ -76,8 +76,8 @@ gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel1Objects1Objects = Hashtable.newFr
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x7adb14
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel2Objects1Objects = Hashtable.newFrom({"Level2": gdjs.MenuCode.GDLevel2Objects1});gdjs.MenuCode.eventsList0x7adddc = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0x789aec
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel2Objects1Objects = Hashtable.newFrom({"Level2": gdjs.MenuCode.GDLevel2Objects1});gdjs.MenuCode.eventsList0x6d14ec = function(runtimeScene) {
 
 {
 
@@ -89,8 +89,8 @@ gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel2Objects1Objects = Hashtable.newFr
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x7adddc
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel3Objects1Objects = Hashtable.newFrom({"Level3": gdjs.MenuCode.GDLevel3Objects1});gdjs.MenuCode.eventsList0x7aba8c = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0x6d14ec
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel3Objects1Objects = Hashtable.newFrom({"Level3": gdjs.MenuCode.GDLevel3Objects1});gdjs.MenuCode.eventsList0x74860c = function(runtimeScene) {
 
 {
 
@@ -102,8 +102,8 @@ gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDLevel3Objects1Objects = Hashtable.newFr
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x7aba8c
-gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDEndlessObjects1Objects = Hashtable.newFrom({"Endless": gdjs.MenuCode.GDEndlessObjects1});gdjs.MenuCode.eventsList0x6b7954 = function(runtimeScene) {
+}; //End of gdjs.MenuCode.eventsList0x74860c
+gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDEndlessObjects1Objects = Hashtable.newFrom({"Endless": gdjs.MenuCode.GDEndlessObjects1});gdjs.MenuCode.eventsList0x718e44 = function(runtimeScene) {
 
 {
 
@@ -115,7 +115,7 @@ gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDEndlessObjects1Objects = Hashtable.newF
 }
 
 
-}; //End of gdjs.MenuCode.eventsList0x6b7954
+}; //End of gdjs.MenuCode.eventsList0x718e44
 gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCheatButtonObjects1Objects = Hashtable.newFrom({"CheatButton": gdjs.MenuCode.GDCheatButtonObjects1});gdjs.MenuCode.mapOfGDgdjs_46MenuCode_46GDCheatButtonObjects1Objects = Hashtable.newFrom({"CheatButton": gdjs.MenuCode.GDCheatButtonObjects1});gdjs.MenuCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -183,7 +183,7 @@ gdjs.MenuCode.conditionTrue_1.val = true && gdjs.MenuCode.condition0IsTrue_1.val
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("mode").setNumber(1);
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x7adb14(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x789aec(runtimeScene);} //End of subevents
 }
 
 }
@@ -241,7 +241,7 @@ if (gdjs.MenuCode.condition2IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("mode").setNumber(2);
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x7adddc(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x6d14ec(runtimeScene);} //End of subevents
 }
 
 }
@@ -385,7 +385,7 @@ if (gdjs.MenuCode.condition2IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("mode").setNumber(3);
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x7aba8c(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x74860c(runtimeScene);} //End of subevents
 }
 
 }
@@ -529,7 +529,7 @@ if (gdjs.MenuCode.condition2IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).getChild("mode").setNumber(0);
 }
 { //Subevents
-gdjs.MenuCode.eventsList0x6b7954(runtimeScene);} //End of subevents
+gdjs.MenuCode.eventsList0x718e44(runtimeScene);} //End of subevents
 }
 
 }
